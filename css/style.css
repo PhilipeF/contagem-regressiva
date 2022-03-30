@@ -1,7 +1,91 @@
+/* html {
+
+    @media(max-width: 720px) {
+        font-size: 87, 5%;
+
+    }
+
+    @media(max-width: 1080px) {
+        font-size: 93, 75%
+    }
+} */
+
+
 body {
     margin: 0;
     padding: 0;
-    background-color: #15161B ;
+    background-color: #15161B;
     color: #fff;
+    font-family: 'Open Sans';
 }
 
+header {
+    display: flex;
+    justify-content: center;
+    margin-top: 7rem;
+}
+
+.conteudo {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    gap: 0.5rem;
+    position: fixed;
+    top: 15rem;
+    bottom: 0;
+    left: 15rem;
+}
+
+.teste {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blabla1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #278ed3;
+    color: #404040;
+
+    font-weight: 700;
+    font-size: 5rem;
+    padding: 3rem;
+    border-radius: 0.5rem;
+}
+
+.blabla {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    color: #404040;
+
+    font-weight: 700;
+    font-size: 5rem;
+    padding: 3rem;
+    border-radius: 0.5rem;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 21rem;
+
+}
+
+@media screen and (max-width: 768px) {
+    body .conteudo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        position: fixed;
+        top: 15rem;
+        bottom: 0;
+        left: 15rem;
+    }
+}
