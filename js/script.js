@@ -9,7 +9,7 @@ var x = setInterval(function () {
 
     // console.log('Dias restantes', distance);
 
-    
+
     //Imprimindo dias de hoje
     var dia = now.getDate();           // 1-31
     var dia_sem = now.getDay();            // 0-6 (zero=domingo)
@@ -34,9 +34,9 @@ var x = setInterval(function () {
     minutes = minutes < 10 ? "0" + minutes : minutes;
     seconds = seconds < 10 ? "0" + seconds : seconds;
 
-    document.getElementById("dia").innerText = ` Hoje é dia:  ${dia}/${mes + 1}/${ano4}`;
-    document.getElementById("horas").innerHTML = ` Faltam: ${hours}:${minutes}:${seconds} `;
-    document.getElementById("dias").innerHTML = `E faltam ${diasRestante} dias para o genocida do bolsonaro sair do poder!!!`
+    document.getElementById("horasRestante").innerHTML = ` ${hours}:${minutes}:${seconds} `;
+    document.getElementById("diasRestantes").innerHTML = `${diasRestante} `
+    // document.getElementById("diaNow").innerText = ` Hoje é dia:  ${dia}/${mes + 1}/${ano4}`;
 
 }, 1000)
 
