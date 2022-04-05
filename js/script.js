@@ -32,14 +32,14 @@ var x = setInterval(function () {
     hours = hours < 10 ? "0" + hours : hours;
     minutes = minutes < 10 ? "0" + minutes : minutes;
     seconds = seconds < 10 ? "0" + seconds : seconds;
-    
+
     document.getElementById("diasRestantes").innerHTML = `${diasRestante} `
     document.getElementById("horasRestantes").innerHTML = ` ${hours}`;
     document.getElementById("minutosRestantes").innerHTML = `${minutes}`;
     document.getElementById("secondsRestantes").innerHTML = `${seconds}`;
-    
 
-    // document.getElementById("diaNow").innerText = ` Hoje é dia:  ${dia}/${mes + 1}/${ano4}`;
+
+    document.getElementById("diaNow").innerText = ` Hoje é dia:  ${dia}/${mes + 1}/${ano4}`;
 
 }, 1000)
 
