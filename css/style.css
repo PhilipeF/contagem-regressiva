@@ -25,7 +25,7 @@ header {
     margin-top: 7rem;
 }
 
-.conteudo {
+.container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-content: center;
@@ -36,13 +36,13 @@ header {
     left: 15rem;
 }
 
-.teste {
+.display {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.blabla1 {
+.displayDay {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -56,7 +56,7 @@ header {
     border-radius: 0.5rem;
 }
 
-.blabla {
+.displayH {
     display: flex;
     align-items: center;
     justify-content: center;
