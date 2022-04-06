@@ -7,7 +7,7 @@
 
 <br>
 
-Projeto pessoal desenvolvido para treinar as minhas habilidades em html, css e javascript.  Foi criada uma pagina com um display onde consigo visualizar quantos dias faltam para o ano acabar com quantas horas restantes para o final do dia e a data de hoje. Faço o uso desta pratica para agregar em meus conhecimentos visando projetos maiores no futuro.
+Projeto pessoal desenvolvido para treinar as minhas habilidades em html, css e javascript.  Foi criada uma pagina com um display onde consigo visualizar quantos dias faltam para o ano acabar com quantas horas restantes para o final do dia e a data de hoje. 
 <br>
 <br>
 
@@ -47,6 +47,9 @@ Para executar o projeto foi utilizado a extensão Live Server do vscode
 
 <h2>Segue abaixo um video do projeto</h2>
 <br>
+
+
+https://user-images.githubusercontent.com/64853039/161826136-0076cf9c-6284-4fdb-89ed-4de58e8387b8.mp4
 
 
 ## 📲 Contato
