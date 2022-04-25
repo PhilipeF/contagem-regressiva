@@ -1,7 +1,6 @@
 <div align="center">
 <h1> CONTAGEM REGRESSIVA </h1>
 </div>
-<br>
 
 ## 📃 Sobre
 
