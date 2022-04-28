@@ -17,7 +17,7 @@ var x = setInterval(function () {
     var tz = now.getTimezoneOffset(); 
 
     //Imprimindo dias e  horas restantes 
-    var diasRestante = Math.floor(distance / (1000 * 60 * 60 * 24))
+    var diasRestantes = Math.floor(distance / (1000 * 60 * 60 * 24))
     var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
@@ -26,7 +26,10 @@ var x = setInterval(function () {
     minutes = minutes < 10 ? "0" + minutes : minutes;
     seconds = seconds < 10 ? "0" + seconds : seconds;
 
-    document.getElementById("diasRestantes").innerHTML = `${diasRestante} `
+
+
+    document.getElementById("diasRestantes").innerHTML = `${diasRestantes} `
+
     document.getElementById("horasRestantes").innerHTML = ` ${hours}`;
     document.getElementById("minutosRestantes").innerHTML = `${minutes}`;
     document.getElementById("secondsRestantes").innerHTML = `${seconds}`;

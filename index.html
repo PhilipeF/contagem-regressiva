@@ -1,51 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
+    <title>Contador Regresivo</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Oswald&family=Poppins:wght@400;600&display=swap"
         rel="stylesheet">
 
-    <title>Contador Regresivo</title>
     <script src="js/script.js" defer></script>
 </head>
 
 <body>
     <header>
-        <h1>Faltam</h1>
+        <h1>Faltam...</h1>
     </header>
 
-    <div class="container">
-        <div class="display">
-            <div id="diasRestantes" class="displayDay"> </div>
-            <h3>Dias</h3>
-        </div>
-        
-        <div class="display">
-            <div id="horasRestantes" class="displayH"></div>
-            <h3>Horas</h3>
+    <section class="container">
+        <div class="display displayInfo">
+            <span id="diasRestantes"> </span> 
+            <span>Dias</span>
         </div>
 
-        <div class="display">
-            <div id="minutosRestantes" class="displayH"></div>
-            <h3>Minutos</h3>
+        <div class="display displayInfo">
+            <span id="horasRestantes"></span>
+            <span>Horas</span>
         </div>
 
-        <div class="display">
-            <div id="secondsRestantes" class="displayH"></div>
-            <h3>Segundos</h3>
-        </div>      
-        
-    </div>
+        <div class="display displayInfo">
+            <span id="minutosRestantes"></span>
+            <span>Minutos</span>
+        </div>
+
+        <div class="display displayInfo">
+            <span id="secondsRestantes"></span>
+            <span>Segundos</span>
+        </div>
+    </section>
 
     <div class="footer">
         <h1>Para o Ano Novo !!!</h1>
-        <div id="diaNow"> </div>
+        <span id="diaNow"> </span>
 
     </div>
 
 </body>
+
 </html>

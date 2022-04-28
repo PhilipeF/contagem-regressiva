@@ -1,82 +1,80 @@
-/* html {
-
-    @media(max-width: 720px) {
-        font-size: 87, 5%;
-
-    }
-
-    @media(max-width: 1080px) {
-        font-size: 93, 75%
-    }
-} */
-
+* {
+    margin: 0;
+    padding: 0;    
+    font-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
 
 body {
-    margin: 0;
-    padding: 0;
-    background-color: #15161B;
     color: #fff;
-    font-family: 'Open Sans';
+    background: #15161B;
 }
 
 header {
     display: flex;
     justify-content: center;
-    margin-top: 7rem;
+    margin-top: 7%;
+    margin-bottom: 3%;
+}
+
+header h1 {
+    font-size: 3em;
+    text-transform: uppercase;
 }
 
 .container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
     justify-content: center;
-    gap: 0.5rem;
-    position: fixed;
-    top: 15rem;
-    bottom: 0;
-    left: 15rem;
+    display: flex;
+    flex-direction: row;
+    padding: 3% 4%;    
+    margin-bottom: 3em;
 }
 
 .display {
+    width: 100%;
+    margin-right: 2%;
+    border-radius: 5px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.displayDay {
-    display: flex;
-    align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+.displayInfo { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #278ed3;
-    color: #404040;
-
-    font-weight: 700;
-    font-size: 5rem;
-    padding: 3rem;
-    border-radius: 0.5rem;
+    text-align: center;
 }
 
-.displayH {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    background-color: #FFFFFF;
-    color: #404040;
-
+.displayInfo span:nth-child(1) {
+    font-size: 5em;
     font-weight: 700;
-    font-size: 5rem;
-    padding: 3rem;
-    border-radius: 0.5rem;
+    color: #404040;
 }
+
+.displayInfo span:nth-child(2) {
+    font-size: 1em;
+    color: #FFF;
+}
+
 
 .footer {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 21rem;
+}
 
+.footer h1 {
+    font-size: 3em;
+    margin-bottom: 3%;
+}
+
+.footer span {
+    font-size: 1.5em;
 }
 
 @media screen and (max-width: 768px) {
